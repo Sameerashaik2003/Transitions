@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 97vw;
+            height: 98vh;
+        }
+        #main{
+            position:relative;
+            height: 400px;
+            width: 400px;
+            transform-style:preserve-3d;
+            transform: perspective(500px) rotateX(50deg);
+        }
+        span{
+            position: absolute;
+            border-radius: 50%;
+            animation: shinchan 5s;
+        }
+        @keyframes shinchan {
+            0%{
+                transform:translateZ(0PX);
+            
+            }
+            50%{
+                transform: translateZ(200PX);
+            }
+            100%{
+                transform: translateZ(0PX);
+            }
+        }
+        span:nth-child(1){
+            border: 2px rgba(76, 0, 255, 0.879) solid;
+            top: 10px;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            animation-delay: 0.1s;
+        }
+        span:nth-child(2){
+            border: 2px rgb(255, 0, 132) solid;
+            top: 20px;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            animation-delay: 0.2s;
+        }
+        span:nth-child(3){
+            border: 2px rgb(0, 128, 79) solid;
+            top: 30px;
+            bottom: 30px;
+            left: 30px;
+            right: 30px;
+            animation-delay: 0.3s;
+        }
+
+        span:nth-child(4){
+            border: 2px rgb(159, 20, 43) solid;
+            top: 40px;
+            bottom: 40px;
+            left: 40px;
+            right: 40px;
+            animation-delay: 0.4s;
+        }
+        span:nth-child(5){
+            border: 2px rgb(48, 14, 110) solid;
+            top: 50px;
+            bottom: 50px;
+            left: 50px;
+            right: 50px;
+            animation-delay: 0.5s;
+        }
+        span:nth-child(6){
+            border: 2px rgb(142, 33, 33) solid;
+            top: 60px;
+            bottom: 60px;
+            left: 60px;
+            right: 60px;
+            animation-delay: 0.6s;
+        }
+        span:nth-child(7){
+            border: 2px rgb(92, 59, 76) solid;
+            top: 70px;
+            bottom: 70px;
+            left: 70px;
+            right: 70px;
+            animation-delay: 0.7s;
+        }
+        span:nth-child(8){
+            border: 2px rgb(30, 160, 80) solid;
+            top: 80;
+            bottom: 80;
+            left: 80;
+            right: 80;
+            animation-delay: 0.8s;
+        }
+        span:nth-child(9){
+            border: 2px rgb(79, 31, 31) solid;
+            top: 90px;
+            bottom: 90px;
+            left: 90px;
+            right: 90px;
+            animation-delay: 0.9s;
+        }
+        span:nth-child(10){
+            border: 2px rgb(58, 52, 44) solid;
+            top: 100px;
+            bottom: 100px;
+            left: 100px;
+            right: 100px;
+            animation-delay: 1.0s;
+        }
+        span:nth-child(11){
+            border: 2px rgb(30, 94, 30) solid;
+            top:110px ;
+            bottom: 110px;
+            left:110px ;
+            right: 110px;
+            animation-delay: 1.2s;
+        }
+        span:nth-child(12){
+            border: 2px rgb(24, 23, 23);
+            top: 120px;
+            bottom: 120px;
+            left: 120px;
+            right: 120px;
+            animation-delay: 1.3s;
+        }
+        span:nth-child(13){
+            border: 2px rgb(137, 27, 27) solid;
+            top: 130px;
+            bottom: 130px;
+            left: 130px;
+            right: 130px;
+            animation-delay: 1.4s;
+        }
+        span:nth-child(14){
+            border: 2px rgb(16, 18, 77) solid;
+            top: 140px;
+            bottom: 140px;
+            left: 140px;
+            right: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            animation-delay: 1.5s;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+<div id="main">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span>Hello</span>
+
+    </div>
+    
+</body>
+</html>
